@@ -12,13 +12,15 @@
 	},
 	"license": "MIT",
 	"author": "",
-	"type": "module",
-	"main": "index.js",
+	"type": "commonjs",
+	"main": "dist/index.js",
 	"scripts": {
-		"start": "NODE_OPTIONS=--disable-warning=ExperimentalWarning node --experimental-transform-types ./src/index.ts"
+		"build": "tsc",
+		"start": "npm run build && node dist/index.js"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "1.9.4",
+		"@types/node": "^22.15.29",
 		"typescript": "^5.8.3"
 	},
 	"dependencies": {
