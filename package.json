@@ -1,0 +1,28 @@
+{
+	"name": "docker-talk-demo",
+	"version": "1.0.0",
+	"description": "Demo repo for my intro to containers talk",
+	"homepage": "https://github.com/nint8835/docker-talk-demo#readme",
+	"bugs": {
+		"url": "https://github.com/nint8835/docker-talk-demo/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nint8835/docker-talk-demo.git"
+	},
+	"license": "MIT",
+	"author": "",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"start": "NODE_OPTIONS=--disable-warning=ExperimentalWarning node --experimental-transform-types ./src/index.ts"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"typescript": "^5.8.3"
+	},
+	"dependencies": {
+		"@hono/node-server": "^1.14.3",
+		"hono": "^4.7.10"
+	}
+}
