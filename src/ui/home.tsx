@@ -7,6 +7,7 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir,
         segoe ui, helvetica neue, Adwaita Sans, Cantarell, Ubuntu, roboto,
         noto, helvetica, arial, sans-serif;
+    font-size: x-large;
     line-height: 1.5;
     height: 100vh;
     display: flex;
@@ -21,6 +22,7 @@ code {
     background-color: #222;
     padding: 0.2em 0.4em;
     border-radius: 4px;
+    font-family: Menlo, Consolas, Monaco, Adwaita Mono, Liberation Mono, Lucida Console, monospace;
 }
 `;
 
